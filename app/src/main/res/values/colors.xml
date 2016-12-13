@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2f3e45</color>
+    <color name="colorPrimaryDark">#2f3e45</color>
+    <color name="colorAccent">#388E3C</color>
+    <color name="line">#a9a9a9</color>
+
+    <integer-array name="colors">
+        <item>@android:color/holo_green_light</item>
+        <item>@android:color/holo_blue_light</item>
+        <item>@android:color/holo_purple</item>
+        <item>@android:color/holo_red_dark</item>
+    </integer-array>
+</resources>

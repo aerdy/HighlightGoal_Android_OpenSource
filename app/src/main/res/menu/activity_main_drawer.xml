@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/latest"
+            android:checked="true"
+            android:icon="@mipmap/ic_ball"
+            android:title="Latest" />
+        <item
+            android:id="@+id/champion"
+            android:icon="@mipmap/ic_ball"
+            android:title="Champions League" />
+        <item
+            android:id="@+id/europa"
+            android:icon="@mipmap/ic_ball"
+            android:title="Europa League" />
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/inggris"
+            android:icon="@mipmap/ic_ball"
+            android:title="Premier League" />
+
+        <item
+            android:id="@+id/seria"
+            android:icon="@mipmap/ic_ball"
+            android:title="Serie A" />
+        <item
+            android:id="@+id/spain"
+            android:icon="@mipmap/ic_ball"
+            android:title="BBVA" />
+        <item
+            android:id="@+id/jerman"
+            android:icon="@mipmap/ic_ball"
+            android:title="Bundesliga" />
+        <item
+            android:id="@+id/france"
+            android:icon="@mipmap/ic_ball"
+            android:title="Ligue 1" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/rate"
+                android:icon="@mipmap/ic_rate"
+                android:title="Rate this App" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@mipmap/ic_feedback"
+                android:title="Send Feedback" />
+
+            <item
+                android:id="@+id/license"
+                android:icon="@mipmap/ic_license"
+                android:title="License"
+                android:visible="false"/>
+            <item
+                android:id="@+id/about"
+                android:icon="@mipmap/ic_info"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
